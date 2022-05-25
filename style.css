@@ -1,0 +1,104 @@
+html *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+/*Body*/
+
+body{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+/*Header*/
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.headerlinks{
+    display: flex;
+    list-style: none;
+}
+
+.headerlinks a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerlinks li{
+    margin: 0 10px;
+}
+
+/*Hero Section*/
+.hero_container{
+    background-color: #1f2937;
+    padding: 5px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.hero_leftside, .hero_rightside{
+    flex: 1;
+}
+
+.hero_leftside{
+    padding: 5px;
+}
+
+.mainherotext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.subherotext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero_leftside button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.hero_rightside{
+
+}
+
+.hero_rightside img{
+    max-width: 100%;
+}
+
+/*Random Info Container*/
+
+
+
+
+
+
